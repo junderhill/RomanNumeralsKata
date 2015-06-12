@@ -15,5 +15,23 @@ namespace RomanNumeralsKata.Tests
             //assert
             Assert.AreEqual("I", result);
         }
+        [TestMethod]
+        public void TestThat2ReturnsII()
+        {
+            //act
+            var result = RomanNumerals.arabicToRoman(2);
+            //assert
+            Assert.AreEqual("II", result);
+        }
+
+        [TestMethod]
+        public void TestThat3ReturnsIII()
+        {
+            //act
+            var result = RomanNumerals.arabicToRoman(3);
+            //assert
+            Assert.AreEqual("III", result);
+        }
+
     }
 }

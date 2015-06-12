@@ -1,10 +1,17 @@
-﻿namespace RomanNumeralsKata
+﻿using System.Text;
+
+namespace RomanNumeralsKata
 {
     public class RomanNumerals
     {
-        public static string arabicToRoman(int i)
+        public static string arabicToRoman(int arabic)
         {
-            return "I";
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < arabic; i++)
+            {
+                sb.Append("I");
+            }
+            return sb.ToString();
         }
     }
 }
