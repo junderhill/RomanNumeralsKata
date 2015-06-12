@@ -11,7 +11,8 @@ namespace RomanNumeralsKata
             {
                 sb.Append("I");
             }
-            return sb.ToString();
+            string output = sb.ToString();
+            return output.Replace("IIIII", "V");
         }
     }
 }

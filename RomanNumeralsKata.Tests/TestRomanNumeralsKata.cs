@@ -33,5 +33,14 @@ namespace RomanNumeralsKata.Tests
             Assert.AreEqual("III", result);
         }
 
+        [TestMethod]
+        public void TestThe5RetunsV()
+        {
+            //act
+            var result = RomanNumerals
+                .arabicToRoman(5);
+            //assert            
+            Assert.AreEqual("V", result);
+        } 
     }
 }
