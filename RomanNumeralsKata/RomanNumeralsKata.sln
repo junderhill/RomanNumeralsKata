@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumeralsKata", "RomanNumeralsKata.csproj", "{B910E2CD-98C0-431B-B6C0-CD51BD8256EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumeralsKata.Tests", "..\RomanNumeralsKata.Tests\RomanNumeralsKata.Tests.csproj", "{0A40D917-2D1A-46F0-AD8F-1A84FD64A6CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B910E2CD-98C0-431B-B6C0-CD51BD8256EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B910E2CD-98C0-431B-B6C0-CD51BD8256EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B910E2CD-98C0-431B-B6C0-CD51BD8256EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A40D917-2D1A-46F0-AD8F-1A84FD64A6CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A40D917-2D1A-46F0-AD8F-1A84FD64A6CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A40D917-2D1A-46F0-AD8F-1A84FD64A6CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A40D917-2D1A-46F0-AD8F-1A84FD64A6CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

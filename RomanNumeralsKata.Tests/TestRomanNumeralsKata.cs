@@ -7,13 +7,13 @@ namespace RomanNumeralsKata.Tests
     public class TestRomanNumeralsKata
     {
         [TestMethod]
-        public void TestThatIReturns1()
+        public void TestThat1ReturnsI()
         {
-            //arrange
-
             //act
+            var result = RomanNumerals.arabicToRoman(1);
 
             //assert
+            Assert.AreEqual("I", result);
         }
     }
 }
