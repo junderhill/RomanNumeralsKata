@@ -42,5 +42,23 @@ namespace RomanNumeralsKata.Tests
             //assert            
             Assert.AreEqual("V", result);
         } 
+
+        [TestMethod]
+        public void TestThat4ReturnsIV()
+        {
+           //act
+            var result = RomanNumerals.arabicToRoman(4);
+            //assert
+            Assert.AreEqual("IV", result);
+        }
+
+        [TestMethod]
+        public void TestThat6ReturnsVI()
+        {
+            //act
+            var result = RomanNumerals.arabicToRoman(6);
+            //assert
+            Assert.AreEqual("VI", result);
+        }
     }
 }
